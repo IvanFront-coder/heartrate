@@ -29,6 +29,12 @@
             margin-top: 49px;
         }
     }
+
+    .carousel {
+        .prev, .next {
+            display: none;
+        }
+    }
 }
 
 @media (max-width: 767px) {
