@@ -27,6 +27,12 @@
             width: 100%;
         }
     }
+    &__img2 {
+        animation: heartbeat 1.5s ease infinite;
+        &:hover {
+            animation-play-state: paused;
+        }
+    }
     &__subheader {
         margin-top: 38px;
         margin-bottom: 0;

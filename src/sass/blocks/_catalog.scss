@@ -153,6 +153,12 @@
                     left: -14px;
                     top: 7px;
                 }
+                &:last-child {
+                    &:before {
+                        width: 0;
+                        height: 0;
+                    }
+                }
             }
         }
         &__back {
@@ -160,7 +166,7 @@
                 color: $main-color;
             }
             position: absolute;
-            bottom: 0;
+            bottom: -88px;
             left: 50%;
             transform: translateX(calc(-50% - 19px));
             display: block;
